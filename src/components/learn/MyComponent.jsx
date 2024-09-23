@@ -1,9 +1,11 @@
+import "./style.css";
 
 const MyComponent = () => {
     return (
-        <div>
-            Author is Lam Tri
-        </div>
+        <>
+            <div className="child1">ddasdadsad</div>
+            <div className="child2">ccccccccccc</div>
+        </>
     );
 }
 
