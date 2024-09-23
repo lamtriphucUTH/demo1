@@ -2,17 +2,12 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import MyComponent from './components/learn/MyComponent'
 
 // Arrow function: () => {}
 // component = html + css + js. --- Uppercase first letter
 
-const MyComponent = () => {
-  return (
-    <div>
-      Author is Lam Tri
-    </div>
-  );
-}
+
 
 function App() {
   const [count, setCount] = useState(0)
